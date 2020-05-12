@@ -13,10 +13,11 @@ class StaticsService {
     // средняя сумма продаж в месяц
     public long averageSum(long[] sales) {
         long sum = calculateSum(sales);
-        long month = 12;
+        long month = 0;
         for (long sale : sales) {
+            month++
         }
-        return sum / 12;
+        return sum / month;
     }
 
     // номер месяца, в котором был пик продаж
