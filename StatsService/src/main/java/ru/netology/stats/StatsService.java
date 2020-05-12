@@ -15,7 +15,7 @@ class StaticsService {
         long sum = calculateSum(sales);
         long month = 0;
         for (long sale : sales) {
-            month++
+            month++;
         }
         return sum / month;
     }
